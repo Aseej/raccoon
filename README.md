@@ -1,11 +1,23 @@
-<div align="center">
+# Eva's Tiny Chaos World
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Interactive mobile-first romantic game & surprise web app built with React, TypeScript, Tailwind CSS, and Vite.
 
-  <h1>Built with AI Studio</h2>
+## Deploying to Vercel
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+This project is a zero-config static Vite SPA (no backend server or environment variables required).
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### Option 1: GitHub + Vercel Dashboard
+1. Push this repository to GitHub.
+2. Import the repository in [Vercel](https://vercel.com/new).
+3. Vercel automatically detects `vercel.json` (`vite` framework, `npm run build`, output directory `dist`).
+4. Click **Deploy**.
 
-</div>
+### Option 2: Vercel CLI
+```bash
+npm install
+npm run build
+npx vercel --prod
+```
+
+## Custom Dudu & Bubu GIFs
+Drop any `.gif` files inside `public/gifs/` (for example `public/gifs/welcome.gif`) and update the matching key in `src/data/assets.ts` (for example `welcome: '/gifs/welcome.gif'`). Any empty key automatically renders the built-in animated SVG Dudu & Bubu reactions.

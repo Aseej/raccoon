@@ -1,0 +1,6 @@
+{
+  "name": "Eva's Tiny Chaos World",
+  "description": "A playful interactive romantic world made for Eva, with mini-games, compliments, Dudu & Bubu animations, and cute surprises.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
